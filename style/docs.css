@@ -23,7 +23,11 @@ a {
 }
 @media only screen and (max-width: 768px) {
   
-
+  .p-aboutme {
+    text-align: center;
+    position: absolute;
+    top: 30%;
+  }
 }
 
 @media only screen and (min-width: 768px) {
@@ -42,6 +46,12 @@ a {
     font-weight: 400;
     padding-bottom: 30px;
     padding-top: 30px;
+}
+
+.p-aboutme {
+  position: absolute;
+  top: 30%;
+  left: 20%;
 }
  
 }
@@ -150,7 +160,7 @@ canvas {
 
 .text {
   position: absolute;
-  top: 45%;
+  top: 51%;
   right: 45%;
   -webkit-transform: translate(50%, -50%);
           transform: translate(50%, -50%);
@@ -166,7 +176,31 @@ h1{
   font-size: 3rem;
 }
 
+.title-aboutme {
+  position: absolute;
+  top: 15%;
+  left: 23%;
+}
 
+
+
+.footer-aboutme{
+  padding-top: 50px;
+  left: 40%;
+}
+
+
+.find-about{
+  color: white;
+  font-size: 2.8em;
+  font-weight: bold;
+  padding-top: 40px;
+
+}
+
+.contact {
+  font-size: 2em;
+}
 
 .mark{
   color: white;
@@ -174,6 +208,10 @@ h1{
   background-color: #002A95;
   border-radius: 6px;
   padding-bottom: 10px;
+}
+
+hr {
+  opacity: 0;
 }
 
 .little-padding-bot{

@@ -10,16 +10,20 @@ a {
 
 .navbar-inverse .navbar-nav>li>a {
   color: white;
+  
 }
 
+.logo {
+  padding-top: 15px;
+  padding-left: 10px;
+   
+}
 .navbar {
   background-color: #343434; 
 }
 @media only screen and (max-width: 768px) {
   
-  .text {
-    top:60;
-  }
+
 }
 
 @media only screen and (min-width: 768px) {
@@ -27,9 +31,25 @@ a {
   .navbar-header {
     padding-top: 340px;
   }
+
+  .logo{
+    opacity: 0;
+  }
+
+  .navbar-nav>li>a {
+    
+    font-size: 20px;
+    font-weight: 400;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
  
 }
 
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+    border-color: #343434;
+
+}
 html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}
 body{line-height:1}
 article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}
@@ -130,8 +150,8 @@ canvas {
 
 .text {
   position: absolute;
-  top: 40%;
-  right: 55%;
+  top: 45%;
+  right: 45%;
   -webkit-transform: translate(50%, -50%);
           transform: translate(50%, -50%);
   color: #fff;
@@ -143,13 +163,14 @@ canvas {
 h1{
   color: white;
   font-weight: bold; 
-  font-size: 91px;
+  font-size: 3rem;
 }
+
 
 
 .mark{
   color: white;
-  font-size: 28px;
+  font-size: 2em;
   background-color: #002A95;
   border-radius: 6px;
   padding-bottom: 10px;
@@ -207,4 +228,3 @@ a:hover:after {
   background: #333333;
   z-index: -1;
 }
-
